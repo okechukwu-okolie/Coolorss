@@ -13,10 +13,10 @@ function Hero(props){
                 thousands of beautiful color  schemes</h5>
                 <Button color='heroBtn1' text='Start the generator!' />
                 <Button color='heroBtn2' text='Explore trending palettes' />
-                <button className='heroBtn3'><img src="./public/cupImageAndText.png" alt="" /> </button>
+                <button className='heroBtn3'><img src="./cupImageAndText.png" alt="" /> </button>
             </div>
             <div>
-                <img className='heroImage' src="./public/dynamicLaptopImage.png" alt="" />
+                <img className='heroImage' src="./dynamicLaptopImage.png" alt="" />
             </div>
         </div>
         
