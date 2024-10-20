@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+
+
+.headerButton{
+  background-color: blue;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0px 20px 0px 20px;
+  border-bottom: solid 1px lightgray;
+
+  .headerImage2{
+    margin-left: -400px;
+    
+  }
+
+  li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    
+  }
+  #link2{
+    color: hotpink;
+  }
+  #link3{
+    font-size: 26px;
+    color: lightgray;
+  }
+
+  h1{
+    font-size: 40px;
+    color: rgb(36, 36, 224);
+  }
+}
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+}
+
+.heroBtn1{
+  background-color: #0066ff;
+  color: white;
+  padding: 21px 62px;
+  font-size: 16px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none
+}
+.heroBtn2{
+  background-color: transparent;
+  color: black;
+  padding: 17px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: solid 0.3 lightgray;
+
+}
+.heroBtn3{
+  background-color: white;
+  width: 278px;
+  border-radius: 10px;
+  border-color: hotpink;
+
+  
+}
+
+.heroText{
+margin-left: 72px;
+
+
+  h1{
+    font-size: 71px;
+    font-weight: 900;
+    text-align: center;
+    line-height: .95;
+    font-family:  Inter;
+  }
+  h5{
+    text-align: center;
+    color: rgb(68, 67, 67);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+
+  button{
+    margin-left: 110px;
+  }
+}
+
+/* card section */
+
+.cardSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;padding-top: 80px;
+  padding-bottom: 80px;
+  
+}
+
+@keyframes slide {
+  0% {
+    left: 0px;
+    top: 200px;
+  }
+  50% {
+    left: 0px;
+    top: 100px;
+  }
+  100% {
+    left: 0pxpx;
+    top: 100px;
+  }
+}
+
+
+.appImg0{
+  background-color: rgb(236, 233, 233);
+  margin-top: 100px;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  transition-property: background-color;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+  transition-timing-function: ease-in;
+  cursor: pointer;
+ 
+  span{
+    display: none;
+  }
+  
+  img{
+    margin-left: 70px;
+    background: none;
+    width: 50px;
+    margin-top: 30px;
+    display: block;
+    
+  }
+  h2{
+    text-align: center;
+  }
+  p{
+    width: 195px;
+    text-align: center;
+    margin: 3px 0px;
+    font-size: 15px;
+    
+  }
+}
+
+.appImg0:hover{
+    h2,p,img{
+      display: none;
+    }
+    background-color: rgba(161, 255, 246, 0.674);
+    
+  }
+
+.appImg0:hover span{
+  animation-name: slide;
+  animation-duration: .5s;
+  animation-timing-function: ease-in;
+  /* animation-delay: .5s; */
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 800;
+  color: turquoise;
+  position: relative;
+  top: 100px;
+  }
+
+
+.appImg1{
+  background-color: rgb(236, 233, 233);
+  margin-top: 100px;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  transition-property: background-color;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+  transition-timing-function: ease-in;
+  cursor: pointer;
+ 
+  span{
+    display: none;
+  }
+  
+  img{
+    margin-left: 70px;
+    background: none;
+    width: 50px;
+    margin-top: 30px;
+    display: block;
+    
+  }
+  h2{
+    text-align: center;
+  }
+  p{
+    width: 195px;
+    text-align: center;
+    margin: 3px 0px;
+    font-size: 15px;
+    
+  }
+}
+
+.appImg1:hover{
+  h2,p,img{
+    display: none;
+  }
+  background-color: rgba(177, 255, 177, 0.523);
+  
+}
+.appImg1:hover span{
+  animation-name: slide;
+  animation-duration: .5s;
+  animation-timing-function: ease-in;
+  /* animation-delay: .5s; */
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 800;
+  color: lightgreen;
+  position: relative;
+  top: 100px;
+  }
+
+
+
+
+.appImg2{
+  background-color: rgb(236, 233, 233);
+  margin-top: 100px;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  transition-property: background-color;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+  transition-timing-function: ease-in;
+  cursor: pointer;
+ 
+  span{
+    display: none;
+  }
+  
+  img{
+    margin-left: 70px;
+    background: none;
+    width: 50px;
+    margin-top: 30px;
+    display: block;
+    
+  }
+  h2{
+    text-align: center;
+  }
+  p{
+    width: 195px;
+    text-align: center;
+    margin: 3px 0px;
+    font-size: 15px;
+    
+  }
+}
+
+.appImg2:hover{
+  h2,p,img{
+    display: none;
+  }
+  background-color: rgba(255, 203, 229, 0.489);
+  
+}
+.appImg2:hover span{
+  animation-name: slide;
+  animation-duration: .5s;
+  animation-timing-function: ease-in;
+  /* animation-delay: .5s; */
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 800;
+  color: hotpink;
+  position: relative;
+  top: 100px;
+  }
+
+
+
+  .appImg3{
+    background-color: rgb(236, 233, 233);
+    margin-top: 100px;
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    transition-property: background-color;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+   
+    span{
+      display: none;
+    }
+    
+    img{
+      margin-left: 70px;
+      background: none;
+      width: 50px;
+      margin-top: 30px;
+      display: block;
+      
+    }
+    h2{
+      text-align: center;
+    }
+    p{
+      width: 195px;
+      text-align: center;
+      margin: 3px 0px;
+      font-size: 15px;
+      
+    }
+  }
+  
+  .appImg3:hover{
+    h2,p,img{
+      display: none;
+    }
+    background-color: rgba(251, 71, 251, 0.46);
+    
+  }
+  .appImg3:hover span{
+    animation-name: slide;
+    animation-duration: .5s;
+    animation-timing-function: ease-in;
+    /* animation-delay: .5s; */
+  
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 800;
+    color: purple;
+    position: relative;
+    top: 100px;
+    }
+
+
+
+.appImg4{
+  background-color: rgb(236, 233, 233);
+  margin-top: 100px;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  transition-property: background-color;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+  transition-timing-function: ease-in;
+  cursor: pointer;
+ 
+  span{
+    display: none;
+  }
+  
+  img{
+    margin-left: 70px;
+    background: none;
+    width: 50px;
+    margin-top: 30px;
+    display: block;
+    
+  }
+  h2{
+    text-align: center;
+  }
+  p{
+    width: 195px;
+    text-align: center;
+    margin: 3px 0px;
+    font-size: 15px;
+    
+  }
+}
+
+.appImg4:hover{
+  h2,p,img{
+    display: none;
+  }
+  background-color: rgba(244, 244, 213, 0.529);
+  
+}
+.appImg4:hover span{
+  animation-name: slide;
+  animation-duration: .5s;
+  animation-timing-function: ease-in;
+  /* animation-delay: .5s; */
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 800;
+  color: yellow;
+  position: relative;
+  top: 100px;
+  }
+
+
+/* logoflex */
+.companyLogo{
+  text-align: center;
+
+  /* img{
+    width: 100px;
+    margin: 0px 10px;
+  } */
+
+  h2{
+    margin-bottom: 90px;
+    font-weight: 400;
+  }
+}
+
+.logoFlex{
+  display: flex;
+  justify-content: space-evenly; 
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px 120px;
+  margin-bottom: 80px;
+ 
+}
+
+
+.logo1{
+  width: 100px;
+  transition-property: width;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+}
+.logo1:hover{
+  transform: scale(1.05);
+  width: 110px;
+}
+
+.logo2{
+  width: 180px;
+  margin-left: -50px;
+  transition-property: width;
+  transition-duration: .9s;
+  transition-timing-function: linear;
+}
+.logo2:hover{
+  transform: scale(1.05);
+  width: 200px;
+}
+
+.logo3{
+  width: 100px;
+  transition-property: width;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+}
+.logo3:hover{
+  transform: scale(1.05);
+  width: 110px;
+}
+
+.logo4{
+  width: 100px;
+  transition-property: width;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+}
+.logo4:hover{
+  transform: scale(1.05);
+  width: 110px;
+}
+.logo5{
+  width: 80px;
+  transition-property: width;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+}
+.logo5:hover{
+  transform: scale(1.05);
+  width: 100px;
+}
+
+.logo6{
+  width: 100px;
+  transition-property: width;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+}
+.logo6:hover:hover{
+  transform: scale(1.05);
+  width: 110px;
+}
+
+.logo7{
+  width: 100px;
+  transition-property: width;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+}
+.logo7:hover{
+  transform: scale(1.05);
+  width: 110px;
+}
+.logo8{
+  width: 100px;
+  transition-property: width;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+}
+.logo8:hover{
+  transform: scale(1.05);
+  width: 110px;
+}
+.logo9{
+  width: 100px;
+  transition-property: width;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+}
+.logo9:hover{
+  transform: scale(1.05);
+  width: 110px;
+}
+.logo10{
+  width: 120px;
+  transition-property: width;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+}
+.logo10:hover{
+  transform: scale(1.05);
+  width: 140px;
+}
+.logo11{
+  width: 100px;
+  transition-property: width;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+}
+.logo11:hover{
+  transform: scale(1.05);
+  width: 110px;
+}
+.logo12{
+  width: 100px;
+  transition-property: width;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+}
+.logo12:hover{
+  transform: scale(1.05);
+  width: 110px;
+}
+
+
+
+/* footer */
+.footer{
+  background-color: rgb(236, 233, 233);
+
+  img{
+    width: 25px;
+    margin-left: 20px;
+  }
+}
+.footerFlex{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  
+  padding-top: 50px;
+  margin-top: 90px;
+  padding-left: 70px;
+  padding-right: 70px;
+
+  h5{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: .5;
+  }
+}
+.footerImageTextFlex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 0px 30px;
+
+ 
+}
+
+
+@media (max-width:500px) {
+  .hero .heroImage{
+    width: 380px;
+  }
+}
+  
+
+
+
